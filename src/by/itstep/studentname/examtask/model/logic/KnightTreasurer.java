@@ -6,6 +6,7 @@ import by.itstep.studentname.examtask.model.exception.ArmorIndexOutOfBoundExcept
 
 public class KnightTreasurer {
 
+
     public static Knight sortByPriceAsc(Knight knight) {
         try {
             for (int i = 0; i < knight.getSizeOfArmors() - 1; i++) {
