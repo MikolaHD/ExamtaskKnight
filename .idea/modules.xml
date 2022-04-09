@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ExamtaskKnight.iml" filepath="$PROJECT_DIR$/ExamtaskKnight.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ExamTaskKnight.iml" filepath="$PROJECT_DIR$/ExamTaskKnight.iml" />
     </modules>
   </component>
 </project>
