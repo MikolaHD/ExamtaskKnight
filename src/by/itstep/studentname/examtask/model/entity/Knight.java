@@ -3,6 +3,7 @@ package by.itstep.studentname.examtask.model.entity;
 import by.itstep.studentname.examtask.model.entity.abstracts.Armor;
 import by.itstep.studentname.examtask.model.exception.ArmorIndexOutOfBoundException;
 
+
 public class Knight {
     private Armor[] armors;
 
@@ -24,6 +25,13 @@ public class Knight {
         }
     }
 
+    public void setArmors(int index, Armor armor) {
+
+        if (index >= 0 && index < armors.length && armor != null) {
+            armors[index] = armor;
+        }
+    }
+
     public int getSizeOfArmors() {
         return armors.length;
     }
@@ -35,14 +43,14 @@ public class Knight {
         for (; i < armors.length; i++) {
             temp[i] = armors[i];
         }
-
         temp[i] = armor;
         armors = temp;
     }
 
+
     @Override
     public String toString() {
-        StringBuilder builder = new StringBuilder("\n List of armor for knight : ");
+        StringBuilder builder = new StringBuilder(" List of armor for knight : ");
         for (Armor armor : armors) {
             builder.append(armor).append("\n");
         }

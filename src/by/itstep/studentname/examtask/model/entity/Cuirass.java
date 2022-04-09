@@ -8,7 +8,7 @@ public class Cuirass extends Armor {
     }
 
     public Cuirass(double price, double weight, double armor) {
-        super(price,weight,armor);
+        super(price, weight, armor);
     }
 
     @Override

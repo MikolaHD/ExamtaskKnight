@@ -44,6 +44,11 @@ public class Armor {
         }
     }
 
+    public static double getRandom(double min, double max) {
+        double x = (Math.random() * ((max - min) + 1)) + min;
+        return x;
+    }
+
     @Override
     public String toString() {
         return "{" +

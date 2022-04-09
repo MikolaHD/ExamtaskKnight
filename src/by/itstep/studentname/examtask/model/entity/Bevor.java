@@ -9,7 +9,6 @@ public class Bevor extends Armor {
 
     public Bevor(double price, double weight, double armor) {
         super(price, weight, armor);
-
     }
 
     @Override

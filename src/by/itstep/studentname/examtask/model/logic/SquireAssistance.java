@@ -5,15 +5,11 @@ import by.itstep.studentname.examtask.model.entity.abstracts.Armor;
 import by.itstep.studentname.examtask.model.exception.ArmorIndexOutOfBoundException;
 
 
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
-
-import static java.util.Arrays.*;
-
 public class SquireAssistance {
 
+
     public static double calcTotalPrice(Knight knight) {
+
         double total = 0;
 
         try {
